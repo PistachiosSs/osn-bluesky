@@ -1,0 +1,31 @@
+# --- Secrets: never upload ---
+.env
+
+# --- Collected data: contains other people's posts, keep it private ---
+*.csv
+*.xlsx
+*.db
+*.json
+*.gexf
+output_*/
+pilot_*/
+
+# --- Logs ---
+*.log
+
+# --- Python environment and caches ---
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# --- Assistant files ---
+CLAUDE.md
+CLAUDE_CODE_PROMPT.md
+.claude/
+
+# --- Editor / OS files ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

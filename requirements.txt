@@ -1,0 +1,7 @@
+atproto==0.0.73
+python-dotenv==1.2.4
+pandas==3.1.0
+networkx==3.7
+matplotlib==3.11.2
+scipy==1.18.1      # needed by networkx to draw large graphs (spring_layout)
+openpyxl==3.1.5    # for the Excel hand-labelling sheets (next step)
